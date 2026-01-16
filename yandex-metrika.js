@@ -12,12 +12,12 @@
         'xn----7sbabahfk8cmuibi2aou.xn--p1ai': '106213291', // IDN для водоканал-саратов.рф
         'саратов-водоканал.рф': '106213295',
         'xn----7sbabajbq8cmufdbwou.xn--p1ai': '106213295', // IDN для саратов-водоканал.рф
-        'водоканал-58.рф': '105914824',
-        'xn---58-5cdako2clshb.xn--p1ai': '105914824', // IDN для водоканал-58.рф
-        'водоканал-пенза.рф': '105914824',
-        'xn----7sbabgmkqwmueebv.xn--p1ai': '105914824', // IDN для водоканал-пенза.рф
-        'водоканал58.рф': '105914824',
-        'xn--58-6kcaim6bkqgb.xn--p1ai': '105914824' // IDN для водоканал58.рф
+        'водоканал-58.рф': '106293636',
+        'xn---58-5cdako2clshb.xn--p1ai': '106293636', // IDN для водоканал-58.рф
+        'водоканал-пенза.рф': '106293655',
+        'xn----7sbabgmkqwmueebv.xn--p1ai': '106293655', // IDN для водоканал-пенза.рф
+        'водоканал58.рф': '106293677',
+        'xn--58-6kcaim6bkqgb.xn--p1ai': '106293677' // IDN для водоканал58.рф
     };
 
     // Получаем текущий домен
@@ -40,11 +40,11 @@
         } else if (hostname.indexOf('саратов-водоканал') !== -1 || hostname.indexOf('xn----7sbabajbq8cmufdbwou') !== -1) {
             counterId = '106213295';
         } else if (hostname.indexOf('водоканал-58') !== -1 || hostname.indexOf('xn---58-5cdako2clshb') !== -1) {
-            counterId = '105914824';
+            counterId = '106293636';
         } else if (hostname.indexOf('водоканал-пенза') !== -1 || hostname.indexOf('xn----7sbabgmkqwmueebv') !== -1) {
-            counterId = '105914824';
+            counterId = '106293655';
         } else if (hostname.indexOf('водоканал58') !== -1 || hostname.indexOf('xn--58-6kcaim6bkqgb') !== -1) {
-            counterId = '105914824';
+            counterId = '106293677';
         }
     }
     
