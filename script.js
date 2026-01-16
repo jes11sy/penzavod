@@ -7,7 +7,7 @@ const TELEGRAM_CHAT_ID = CONFIG.TELEGRAM_CHAT_ID;
 
 // Функция форматирования сообщения
 function formatMessage(formData) {
-    let message = `🔔 <b>Новая заявка с Водоканал (Пенза)</b>\n\n`;
+    let message = `🔔 <b>Новая заявка с Водоканал58 (Пенза)</b>\n\n`;
     message += `👤 <b>Имя:</b> ${formData.name || 'Не указано'}\n`;
     message += `📞 <b>Телефон:</b> ${formData.phone || 'Не указано'}\n`;
     message += `📋 <b>Тип заявки:</b> ${formData.type || 'Не указано'}\n`;

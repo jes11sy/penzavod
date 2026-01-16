@@ -7,7 +7,7 @@ User-agent: Yandex
 Allow: /
 Disallow: /admin/
 Disallow: /*.json$
-Host: https://водоканал64.рф/
+Host: https://водоканал58.рф/
 Clean-param: utm_source&utm_medium&utm_campaign&ref&from
 
 User-agent: Googlebot
@@ -15,5 +15,5 @@ Allow: /
 Disallow: /admin/
 Disallow: /*.json$
 
-Sitemap: https://водоканал64.рф/sitemap.xml
+Sitemap: https://водоканал58.рф/sitemap.xml
 

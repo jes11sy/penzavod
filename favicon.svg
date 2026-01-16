@@ -8,8 +8,8 @@
   <!-- Окошко с цифрами -->
   <rect x="20" y="30" width="24" height="10" rx="1" fill="#f8f9fa"/>
   
-  <!-- Цифры "64" -->
-  <text x="32" y="37" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0056b3" text-anchor="middle" dominant-baseline="middle">64</text>
+  <!-- Цифры "58" -->
+  <text x="32" y="37" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0056b3" text-anchor="middle" dominant-baseline="middle">58</text>
   
   <!-- Красная галочка качества -->
   <circle cx="42" cy="38" r="4" fill="#dc3545"/>
